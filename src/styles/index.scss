@@ -22,5 +22,20 @@
     &--content {
         padding: 30px;
         flex: 1;
+        &__total {
+            h4 {
+                font-size: 22px;
+            }
+            &--price {
+                font-size: 48px;
+                font-weight: 100;
+                small {
+                    font-size: 32px;
+                }
+            }
+            b {
+                font-weight: 600;
+            }
+        }
     }
 }
