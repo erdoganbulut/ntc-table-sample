@@ -1,4 +1,4 @@
-const formatMoney = (amount, decimalCount = 2, decimal = ",", thousands = ".") => {
+const dotter = (amount, decimalCount = 2, decimal = ",", thousands = ".") => {
   try {
     decimalCount = Math.abs(decimalCount);
     decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
@@ -14,4 +14,15 @@ const formatMoney = (amount, decimalCount = 2, decimal = ",", thousands = ".") =
   }
 };
 
-export default formatMoney;
+/**
+ * Bu method float olarak aldığı para biriminin ana parasını normal kuruş kısmını daha küçük olacak şekilde return eder.
+ * @param {float} amount 
+ * @returns {string} moneyFormatter
+ */
+const moneyFormatter = (amount) => {
+  const costs = dotter(amount).split(',');
+  const changeMoney = costs[1] ? `,<small>${costs[1]} TL</small>` : '<small> TL</small>';
+  return costs[0] + changeMoney;
+};
+
+export default moneyFormatter;
