@@ -787,3 +787,5 @@ NTCCell.prototype.generateHtmlCode = function () {
 
     return htmlCode;
 }
+
+export default NTCTable;
