@@ -1,0 +1,26 @@
+.ntc-heading2 {
+    display: none;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    &--sidebar {
+        box-sizing: border-box;
+        width: 360px;
+        background: #3787C7;
+        color: #fff;
+        padding: 30px;
+        h1 {
+            padding: 10px 0;
+        }
+        &__item {
+            padding: 15px 0;
+        }
+    }
+    &--content {
+        padding: 30px;
+        flex: 1;
+    }
+}
