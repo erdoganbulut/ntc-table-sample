@@ -6,7 +6,7 @@ Minimal Webpack 4 boilerplate with Babel, Sass, ESLint, Hot Module Replacement, 
 
 ```
 git clone 
-npm i
+yarn
 ```
 
 ## Usage
@@ -14,13 +14,13 @@ npm i
 ### Development server
 
 ```bash
-npm start
+yarn start
 ```
 
 ### Production build
 
 ```bash
-npm run build
+yarn build
 ```
 
 ## Features
