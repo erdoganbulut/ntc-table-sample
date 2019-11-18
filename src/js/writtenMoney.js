@@ -1,5 +1,10 @@
 import writtenNumber from 'written-number';
 
+/**
+ * Bu method float olarak aldığı para birimini yazıyla lira ve kuruşunu ayırarak yazdırır.
+ * @param {float} money 
+ * @returns {string} writtenMoney
+ */
 const writtenMoney = (money) => {
   const costs = money.split('.');
   const mainMoneyText = `${writtenNumber(costs[0], {lang: 'tr'})} lira`;
