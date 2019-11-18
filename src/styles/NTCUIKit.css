@@ -352,7 +352,7 @@ dd.ntc-list-description-dataFirst2 {
     padding-bottom: 100px;
     flex-grow: 1;
 }
-//.ntc-section-center > *:last-child:before{
+.ntc-section-center > *:last-child:before{
     display: block;
     margin-bottom: 120px;
     width: 20px;
@@ -635,7 +635,7 @@ select.invalid{
 select,
 input[type="date"]{
     font-family: inherit;
-    background-image: url('img/arrows_down.svg');
+    /* background-image: url('img/arrows_down.svg'); */
     background-position: right center;
     background-size: 15px 15px;
     background-repeat: no-repeat;
@@ -1653,7 +1653,7 @@ body > .ntc-blur-dialogue{
     margin: 7.5px;
     border-radius: 50%;
     background-color: #fff;
-    background-image: url(../img/arrows_remove.svg);
+    /* background-image: url(../img/arrows_remove.svg); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1934,7 +1934,7 @@ body > .ntc-blur-dialogue{
     margin-right: 5px;
 }
 #ntc-taskName:checked + label .ntc-checkbox-taskName{
-    background-image: url(../img/ui-checked.svg);
+    /* background-image: url(../img/ui-checked.svg); */
 }
 .ntc-input-listLineThrough-checkbox li{
     margin-bottom: 8px;
@@ -1950,7 +1950,7 @@ body > .ntc-blur-dialogue{
     margin-right: 3px;
 }
 .ntc-input-listLineThrough-checkbox input[type="checkbox"]:checked + label .ntc-input-checkbox-box{
-    background-image: url(../img/ui-checked.svg);
+    /* background-image: url(../img/ui-checked.svg); */
 }
 .ntc-input-listLineThrough-checkbox input[type="checkbox"]:checked + label{
     text-decoration: line-through;
@@ -1965,7 +1965,7 @@ body > .ntc-blur-dialogue{
     margin-right: 3px;
 }
 .ntc-input-listLineThrough-checkbox input[type="checkbox"]:checked + label:before{
-    background-image: url(../img/ui-checked.svg);
+    /* background-image: url(../img/ui-checked.svg); */
 }
 input[type="checkbox"].ntc-input-listLineThrough-checkbox{
     display: none;
@@ -1982,7 +1982,7 @@ input[type="checkbox"].ntc-input-listLineThrough-checkbox + label:before{
     margin-right: 3px;
 }
 input[type="checkbox"]:checked.ntc-input-listLineThrough-checkbox + label:before{
-    background-image: url(img/ui-checked.svg);
+    /* background-image: url(img/ui-checked.svg); */
 }
 .ntc-input-default-checkbox input[type="checkbox"],
 input[type="checkbox"].ntc-input-default-checkbox{
@@ -1999,7 +1999,7 @@ input[type="checkbox"].ntc-input-default-checkbox + label:before{
 }
 .ntc-input-default-checkbox input[type="checkbox"]:checked + label:before,
 input[type="checkbox"]:checked.ntc-input-default-checkbox + label:before{
-    background-image: url(img/ui-checked.svg);
+    /* background-image: url(img/ui-checked.svg); */
 }
 /*END - 0.5.-.Projeler & Görevler*/
 /*END - 0.5.Page Specific Elements*/
